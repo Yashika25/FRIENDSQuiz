@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e2dbdb"
+    tools:context=".FriendsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/friends"
+            android:contentDescription="@string/todo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="9dp"
+            android:text="@string/rules_for_the_quiz"
+            android:textAllCaps="true"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:text="@string/_1_all_questions_test_your_basic_knowledge_about_f_r_i_e_n_d_s_which_is_an_american_tv_show_n2_each_question_carry_1_credit_for_correct_answer_n3_no_negative_marking_n4_you_require_atleast_5_correct_answers_out_of_8_to_pass_this_quiz_test"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/all_the_best"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_1_what_is_full_name_of_phoebe" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/question1a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phoebe_buffay_kudrow" />
+
+            <RadioButton
+                android:id="@+id/question1b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phoebe_buffay_abbott" />
+
+            <RadioButton
+                android:id="@+id/question1c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phoebe_buffay_hannigan" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_2_in_the_whole_series_how_many_kids_birth_is_shown" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/question2a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_6" />
+
+            <RadioButton
+                android:id="@+id/question2b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_7" />
+
+            <RadioButton
+                android:id="@+id/question2c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_8" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_3_who_was_the_neighbour_who_left_everything_to_monica_and_rachel_after_dying" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/question3a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mr_heckels" />
+
+            <RadioButton
+                android:id="@+id/question3b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mr_eddie" />
+
+            <RadioButton
+                android:id="@+id/question3c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mr_adam_goldberg" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_4_where_did_monica_and_chandler_move_at_the_end_of_the_series" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/question4a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/westchester_county" />
+
+            <RadioButton
+                android:id="@+id/question4b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/london" />
+
+            <RadioButton
+                android:id="@+id/question4c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/manchester" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_5_fill_the_blank_from_season_1_nross_i_don_t_want_to_be_single_i_want_to_be_married_again_n_rachel_enters_nchandler" />
+
+        <EditText
+            android:id="@+id/question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="@string/complete_the_dialogue"
+            android:inputType="" />
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_6_who_is_famous_for_the_dialogue_how_you_doin" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/question6a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/joey_tribbiani" />
+
+            <RadioButton
+                android:id="@+id/question6b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chandler_bing" />
+
+            <RadioButton
+                android:id="@+id/question6c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phoebe_buffay" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_7_which_names_out_of_the_following_were_decided_before_finalizing_f_r_i_e_n_d_s_n_choose_all_correct_answers" />
+
+        <CheckBox
+            android:id="@+id/question7a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/insomnia_cafe" />
+
+        <CheckBox
+            android:id="@+id/question7b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/central_perk" />
+
+        <CheckBox
+            android:id="@+id/question7c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six_of_one" />
+
+        <CheckBox
+            android:id="@+id/question7d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/across_the_hall" />
+
+        <TextView
+            style="@style/question_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question_8_whose_name_did_ross_said_as_rachel_at_the_altar" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <RadioButton
+                android:id="@+id/question8a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carol_willick" />
+
+            <RadioButton
+                android:id="@+id/question8b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/emily_waltham" />
+
+            <RadioButton
+                android:id="@+id/question8c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/susan_bunch" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#715d5d"
+                android:onClick="submitScore"
+                android:text="@string/submit"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="#715d5d"
+                android:onClick="finalAnswers"
+                android:text="@string/check_answers"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
